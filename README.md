@@ -29,3 +29,9 @@ If you want to, you can move it to ".specs": a hidden file with no extension. In
   ```
   ~/.specs
   ```
+
+The supported OSs:
+-------------------
+- Linux.
+- Solaris.
+- Aix.
