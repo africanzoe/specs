@@ -70,7 +70,7 @@ def main():
             print('   ~' + '{0:<10}'.format(logname)[:10] + ' Memory   : ' + str(mem) + " MiB")
         except:
             print('   ~' + '{0:<10}'.format(logname)[:10] + ' Memory   : ' + 'Error occured during memory fetch')
-    # The yet non supported OS
+    # The non yet supported OS
     else:
         print('   ~' + '{0:<10}'.format(logname)[:10] + ' Memory   : ' + '< Not implemented yet for the OS: {0} >'.format(system))
     print('\n' + (display_size + 27) * "-")
